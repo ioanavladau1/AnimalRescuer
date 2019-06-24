@@ -5,3 +5,4 @@ public class Adopter {
     String name;
     double money;
 }
+
