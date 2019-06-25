@@ -28,6 +28,22 @@ public class App {
         animalFood.stock = 25;
         animalFood.expirationDate = LocalDate.of(2020,10,25);
 
+        Vet vet = new Vet();
+        vet.name = "Mike";
+        vet.speciality = "emergency";
+
+        Activities activities = new Activities();
+        activities.name = "walk";
+
+        Animal dog = new Animal();
+        dog.name="Lala";
+
+        Adopter rescuer = new Adopter();
+        rescuer.name = "Dana";
+
+        Vet vet1 = new Vet();
+        vet1.name= "Sara";
+
 
     }
 }

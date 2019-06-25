@@ -4,5 +4,5 @@ public class Game {
 
     Animal dog;
     Adopter rescuer;
-    Vet vet;
+    Vet vet1;
 }
