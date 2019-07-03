@@ -21,7 +21,7 @@ public class App {
         adopter.name = "Ana";
         adopter.money = 420;
 
-        AnimalFood animalFood = new AnimalFood();
+        AnimalFood animalFood = new AnimalFood("pedigree");
         animalFood.foodname = "Pedigree";
         animalFood.price = 20;
         animalFood.quantity = 10;
@@ -32,7 +32,7 @@ public class App {
         vet.name = "Mike";
         vet.speciality = "emergency";
 
-        Activities activities = new Activities();
+        Activities activities = new Activities("Playball");
         activities.name = "walk";
 
         Animal dog = new Animal();
