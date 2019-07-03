@@ -9,6 +9,12 @@ public class AnimalFood {
     double price;
     double quantity;
 
+    public AnimalFood (String foodname){
+        this.foodname=foodname;
+    }
+    public void setStock(double stock) {
+        this.stock = stock;
+    }
     public String getFoodname() {
         return foodname;
     }
@@ -45,19 +51,9 @@ public class AnimalFood {
         return stock;
     }
 
-    public void setStock(double stock) {
-        this.stock = stock;
-    }
+
 
     LocalDate expirationDate;
     double stock;
 
-
-    public AnimalFood (String foodname){
-        this.foodname=foodname;
-    }
-
-    public AnimalFood() {
-
-    }
 }

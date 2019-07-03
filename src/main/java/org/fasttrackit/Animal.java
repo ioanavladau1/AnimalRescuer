@@ -67,5 +67,4 @@ public class Animal {
     String animalFood;
     String activities;
 
-
 }

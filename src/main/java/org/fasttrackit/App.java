@@ -9,40 +9,45 @@ import java.time.LocalDate;
 public class App {
     public static void main(String[] args) {
         Animal animal = new Animal();
-        animal.name = "Soso";
-        animal.age = 5;
-        animal.health = 8;
-        animal.hungerLevel = 6;
-        animal.mindset = 7;
-        animal.animalFood = "Pedigree";
-        animal.activities = "play";
+        animal.setName("Soso");
+        animal.setAge(5);
+        animal.setHealth(8);
+        animal.setHungerLevel(6);
+        animal.setMindset(7);
+        animal.setAnimalFood("Pedigree");
+        animal.setActivities("play");
 
         Adopter adopter = new Adopter();
-        adopter.name = "Ana";
-        adopter.money = 420;
+        adopter.setName("Ana");
+        adopter.setMoney(420);
 
         AnimalFood animalFood = new AnimalFood("pedigree");
-        animalFood.foodname = "Pedigree";
-        animalFood.price = 20;
-        animalFood.quantity = 10;
-        animalFood.stock = 25;
-        animalFood.expirationDate = LocalDate.of(2020,10,25);
+        animalFood.setFoodname("Pedigree");
+        animalFood.setPrice(20);
+        animalFood.setQuantity(10);
+        animalFood.setStock(25);
+        animalFood.setExpirationDate (LocalDate.of(2020,10,25));
 
         Vet vet = new Vet();
-        vet.name = "Mike";
-        vet.speciality = "emergency";
+        vet.setName("Mike");
+        vet.setSpeciality("emergency");
 
         Activities activities = new Activities("Playball");
-        activities.name = "walk";
+        activities.setName("walk");
 
         Animal dog = new Animal();
-        dog.name="Lala";
+        dog.setName("Lala");
 
         Adopter rescuer = new Adopter();
-        rescuer.name = "Dana";
+        rescuer.setName("Dana");
 
         Vet vet1 = new Vet();
-        vet1.name= "Sara";
+        vet1.setName("Sara");
+
+        Adopter rescuer1= new Adopter();
+        rescuer1.setName("John");
+        rescuer1.feed("Coco", "Purina");
+
 
 
     }

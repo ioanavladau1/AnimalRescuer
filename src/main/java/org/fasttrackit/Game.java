@@ -4,6 +4,10 @@ public class Game {
 
     Animal animal;
 
+
+    public Game(Animal animal) {
+        this.animal = animal;
+    }
     public Animal getAnimal() {
         return animal;
     }
@@ -11,7 +15,8 @@ public class Game {
     public void setAnimal(Animal animal) {
         this.animal = animal;
     }
-
+    Adopter rescuer;
+    Vet vet1;
     public Adopter getRescuer() {
         return rescuer;
     }
@@ -28,10 +33,6 @@ public class Game {
         this.vet1 = vet1;
     }
 
-    Adopter rescuer;
-    Vet vet1;
 
-    public Game(Animal animal){
-        this.animal=animal;
     }
-}
+

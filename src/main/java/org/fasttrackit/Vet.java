@@ -2,7 +2,12 @@ package org.fasttrackit;
 
 public class Vet {
     String name;
+    String speciality;
 
+
+    public void setSpeciality(String speciality) {
+        this.speciality = speciality;
+    }
     public String getName() {
         return name;
     }
@@ -15,10 +20,8 @@ public class Vet {
         return speciality;
     }
 
-    public void setSpeciality(String speciality) {
-        this.speciality = speciality;
-    }
 
-    String speciality;
+
+
 
 }

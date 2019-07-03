@@ -2,9 +2,17 @@ package org.fasttrackit;
 
 public class Adopter {
 
-    String name;
 
-    public String getName() {
+
+    String name;
+    double money;
+
+    public void feed(String name,String foodname ) {
+        System.out.println( getName()+ " just gave some "  + foodname  +  " food to "  +  name);
+
+    }
+
+        public String getName() {
         return name;
     }
 
@@ -20,6 +28,7 @@ public class Adopter {
         this.money = money;
     }
 
-    double money;
-}
+
+
+    }
 

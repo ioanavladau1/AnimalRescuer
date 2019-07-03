@@ -2,13 +2,18 @@ package org.fasttrackit;
 
 public class DogFood extends AnimalFood {
 
-    public String getColour() {
-        return colour;
+    String colour;
+
+    public DogFood(String foodname) {
+        super(foodname);
     }
 
     public void setColour(String colour) {
         this.colour = colour;
     }
+    public String getColour() {
+        return colour;
+    }
 
-    String colour;
+
 }

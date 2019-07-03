@@ -6,6 +6,23 @@ public class Activities {
     String eat;
 
     public Activities(String name){
-        this.name= name;
+        this.name= name;}
+
+    public String getName() {
+        return name;
     }
-}
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getEat() {
+        return eat;
+    }
+
+    public void setEat(String eat) {
+        this.eat = eat;
+    }
+
+
+    }
