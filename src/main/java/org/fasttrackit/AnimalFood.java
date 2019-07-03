@@ -11,7 +11,4 @@ public class AnimalFood extends Activities{
 LocalDate expirationDate;
     double stock;
 
-
-
-
 }
