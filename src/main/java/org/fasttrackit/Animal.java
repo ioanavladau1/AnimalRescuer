@@ -7,6 +7,9 @@ public class Animal {
     double health;
     double hungerLevel;
     double mindset;
+    String animalFood;
+    String activities;
+
 
     public String getName() {
         return name;
@@ -64,7 +67,6 @@ public class Animal {
         this.activities = activities;
     }
 
-    String animalFood;
-    String activities;
+
 
 }

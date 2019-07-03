@@ -3,6 +3,8 @@ package org.fasttrackit;
 public class Game {
 
     Animal animal;
+    Adopter rescuer;
+    Vet vet1;
 
 
     public Game(Animal animal) {
@@ -15,8 +17,7 @@ public class Game {
     public void setAnimal(Animal animal) {
         this.animal = animal;
     }
-    Adopter rescuer;
-    Vet vet1;
+
     public Adopter getRescuer() {
         return rescuer;
     }
