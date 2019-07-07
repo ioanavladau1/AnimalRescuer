@@ -25,7 +25,7 @@ public class Adopter {
 
 
     public void feed(String animalFood, String animal) {
-
+        System.out.println(getName() + " just gave some " + animalFood+ " food to " + animal);
 
     }
 

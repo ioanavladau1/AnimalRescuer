@@ -53,8 +53,4 @@ public class AnimalFood {
         return stock;
     }
 
-
-
-
-
 }
