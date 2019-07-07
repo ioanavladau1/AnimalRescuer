@@ -15,7 +15,7 @@ public class App {
         animal.setHungerLevel(6);
         animal.setMindset(7);
         animal.setAnimalFood("Pedigree");
-        animal.setActivities("play");
+        animal.setActivities("playing");
 
         Adopter adopter = new Adopter();
         adopter.setName("Ana");
@@ -48,6 +48,14 @@ public class App {
         Adopter rescuer1= new Adopter();
         rescuer1.setName("John");
         rescuer1.feed("Purina", "Chaika");
+
+
+        Activities activities1= new Activities();
+        activities1.playing("David" , "walking", "Ares");
+        Adopter adopter1= new Adopter();
+        Animal animal1= new Animal();
+
+
 
 
 

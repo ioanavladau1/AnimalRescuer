@@ -5,9 +5,13 @@ public class Activities {
     String name;
     double duration;
 
+
     public Activities(String name){
         this.name= name;}
 
+    public Activities() {
+        Activities activities;
+    }
     public String getName() {
         return name; }
 
@@ -20,4 +24,8 @@ public class Activities {
     public void setDuration(double duration) {
         this.duration = duration; }
 
+        public void playing ( String Adopter ,String Activities,String Animal){
+
+            System.out.println( Adopter + " is " + Activities + " with " + Animal);
+    }
     }
