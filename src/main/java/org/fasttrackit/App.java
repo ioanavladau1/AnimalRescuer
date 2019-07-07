@@ -34,6 +34,7 @@ public class App {
 
         Activities activities = new Activities("Playball");
         activities.setName("walk");
+        activities.setDuration(2);
 
         Animal dog = new Animal();
         dog.setName("Lala");
@@ -46,7 +47,7 @@ public class App {
 
         Adopter rescuer1= new Adopter();
         rescuer1.setName("John");
-        rescuer1.feed("Coco", "Purina");
+        rescuer1.feed("Purina", "Chaika");
 
 
 

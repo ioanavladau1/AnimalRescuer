@@ -3,26 +3,21 @@ package org.fasttrackit;
 public class Activities {
 
     String name;
-    String eat;
+    double duration;
 
     public Activities(String name){
         this.name= name;}
 
     public String getName() {
-        return name;
-    }
+        return name; }
 
     public void setName(String name) {
-        this.name = name;
-    }
+        this.name = name; }
 
-    public String getEat() {
-        return eat;
-    }
+    public double getDuration() {
+        return duration; }
 
-    public void setEat(String eat) {
-        this.eat = eat;
-    }
-
+    public void setDuration(double duration) {
+        this.duration = duration; }
 
     }
