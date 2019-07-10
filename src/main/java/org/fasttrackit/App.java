@@ -47,13 +47,10 @@ public class App {
 
         Adopter rescuer1= new Adopter();
         rescuer1.setName("John");
-        rescuer1.feed("Purina", "Chaika");
+        rescuer1.feed(animalFood, animal );
 
 
-        Activities activities1= new Activities();
-        activities1.playing("David" , "walking", "Ares");
-        Adopter adopter1= new Adopter();
-        Animal animal1= new Animal();
+        rescuer1.playing(activities, animal );
 
 
 

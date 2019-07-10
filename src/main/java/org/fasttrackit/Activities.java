@@ -24,8 +24,5 @@ public class Activities {
     public void setDuration(double duration) {
         this.duration = duration; }
 
-        public void playing ( String Adopter ,String Activities,String Animal){
 
-            System.out.println( Adopter + " is " + Activities + " with " + Animal);
-    }
     }

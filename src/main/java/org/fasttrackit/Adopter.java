@@ -24,12 +24,16 @@ public class Adopter {
 
 
 
-    public void feed(String animalFood, String animal) {
-        System.out.println(getName() + " just gave some " + animalFood+ " food to " + animal);
-
+    public void feed(AnimalFood food, Animal animal) {
+        System.out.println(getName() + " just gave some " + food.getFoodname() + " food to " + animal.getName());
     }
 
+        public void playing( Activities activities , Animal animal){
 
+            System.out.println( getName() + " is " + activities.getName() + " with " + animal.getName());
+
+
+    }
 
     }
 
