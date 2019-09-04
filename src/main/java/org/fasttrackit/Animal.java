@@ -69,4 +69,13 @@ public class Animal {
 
 
 
+    public void animalmindset(double a){
+
+       double b = getHealth();
+       double c = getHungerLevel();
+       if (b + c>10)
+           System.out.println( "Animal is happy! ");
+
+    }
+
 }

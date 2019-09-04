@@ -49,8 +49,8 @@ public class App {
         rescuer1.setName("John");
         rescuer1.feed(animalFood, animal );
 
-
         rescuer1.playing(activities, animal );
+
 
 
 
